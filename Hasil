@@ -1,0 +1,12 @@
+<?php
+
+class Palindrome
+{
+public static function isPalindrome($hasil)
+{
+return (strtolower($hasil) === strtolower(strrev($hasil)));
+}
+}
+
+echo Palindrome::isPalindrome('Deleveled');
+echo Palindrome::isPalindrome('Deleveled');
